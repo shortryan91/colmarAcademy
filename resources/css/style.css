@@ -1,0 +1,239 @@
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  font-size: 32px;
+  padding: 0 24px;
+  margin-top: -85px;
+}
+
+.colmar-title {
+  font-weight: bold;
+}
+
+.academy-title {
+  opacity: .5;
+  margin: -10px;
+}
+
+.logo-box {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.colmarLogo {
+
+}
+
+nav {
+  display: inline-block;
+  margin-left: 43%;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+}
+/* banner container css */
+
+.banner-container {
+  background-color: grey;
+  height: 650px;
+  width: 100%;
+  margin-top: 85px;
+  display: flex;
+  padding-top: 32px;
+}
+
+.banner-image {
+  height: 600px;
+  width: 60%;
+  margin: 0 24px;
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.banner-info h1 {
+  font-weight: bold;
+  font-size: 55px;
+  padding-top: 140px;
+  margin-left: 24px;
+}
+
+.banner-info p {
+  font-size: 30px;
+  margin-left: 24px;
+  margin-top: 40px;
+}
+
+.banner-btn {
+  background-color: black;
+  border: black;
+  color: white;
+  padding: 8px 160px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* main container css */
+.first-container {
+  width: 60%;
+  margin-left: 24px;
+}
+
+.first-container img {
+  margin: 32px 0px;
+  height: 450px;
+  width: 80%;
+}
+
+.first-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.first-container p {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.first-container span {
+  margin-bottom: 32px;
+}
+
+/* right side of main container */
+
+.second-container {
+  width: 40%;
+  border-left: 1px solid black;
+}
+
+/* learning container */
+.learning-container {
+  height: 1000px;
+  background-color: grey;
+  margin-top: 32px;
+}
+
+.learning-container h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 32px;
+}
+
+/* learning section */
+.course-boxes {
+  margin: 16px 82px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.course-box {
+  border: 1px solid black;
+  height: 350px;
+  width: 23%;
+  background-color: white;
+  margin: 32px;
+}
+
+.course-image-1 {
+  height: 200px;
+  background-image: url("../images/course-software.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.course-image-2 {
+  height: 200px;
+  background-image: url("../images/course-computer-art.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.course-image-3 {
+  height: 200px;
+  background-image: url("../images/course-design.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.course-image-4 {
+  height: 200px;
+  background-image: url("../images/course-data.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.course-image-5 {
+  height: 200px;
+  background-image: url("../images/course-business.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.course-image-6 {
+  height: 200px;
+  background-image: url("../images/course-marketing.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* thesis container */
+.thesis-container {
+  height: 900px;
+}
+
+.thesis-container h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 32px;
+}
+
+.thesis-section {
+  display: flex;
+}
+
+video {
+  height: 500px;
+  width:100%;
+  border: 1px solid black;
+}
+.video-div {
+  width:60%;
+}
+
+.video-div p {
+  font-size: 20px;
+}
+
+.thesis-sideBar {
+  width: 40%;
+  display: flex;
+  margin-left: 32px;
+}
+
+
+/* footer section */
+footer {
+  height: 200px;
+  border: 1px solid black;
+}
