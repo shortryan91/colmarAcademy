@@ -1,31 +1,35 @@
+body {
+  color: #f9f8e5;
+  font-family: poppins;
+}
 
 header {
   width: 100%;
-  height: 64px;
-  background-color: white;
-  position: fixed;
-  z-index: 2;
+  height: 84px;
+  background-color: #546a7b;
   font-size: 32px;
-  padding: 0 24px;
-  margin-top: -85px;
+  font-family: poppins;
+
 }
 
 .colmar-title {
   font-weight: bold;
+  margin-left: 10px;
 }
+
 
 .academy-title {
   opacity: .5;
-  margin: -10px;
+  margin-left: -10px;
 }
 
 .logo-box {
   display: inline-block;
-  margin-top: 10px;
+  font-size: 32px;
 }
 
 .colmarLogo {
-
+  height: 60px;
 }
 
 nav {
@@ -45,10 +49,9 @@ nav a {
 /* banner container css */
 
 .banner-container {
-  background-color: grey;
+  background-color: #123c72;
   height: 650px;
   width: 100%;
-  margin-top: 85px;
   display: flex;
   padding-top: 32px;
 }
@@ -77,9 +80,9 @@ nav a {
 }
 
 .banner-btn {
-  background-color: black;
-  border: black;
-  color: white;
+  background-color: #9ea3b0;
+  border: #9ea3b0;
+  color: black;
   padding: 8px 160px;
   margin-top: 30px;
   margin-left: 20px;
@@ -88,6 +91,7 @@ nav a {
 
 .main-container {
   display: flex;
+  background-color: #9ea3b0;
 }
 
 /* main container css */
@@ -121,14 +125,17 @@ nav a {
 
 .second-container {
   width: 40%;
-  border-left: 1px solid black;
+  border-left: 1px solid #e4c3ad;
+  margin-top: 10px;
 }
+
+
 
 /* learning container */
 .learning-container {
   height: 1000px;
-  background-color: grey;
-  margin-top: 32px;
+  background-color: #546a7b;
+  /* margin-top: 32px; */
 }
 
 .learning-container h2 {
@@ -143,15 +150,26 @@ nav a {
   margin: 16px 82px;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .course-box {
-  border: 1px solid black;
   height: 350px;
-  width: 23%;
-  background-color: white;
-  margin: 32px;
+  width: 28%;
+  background-color: #9ea3b0;
+  margin: 16px 22px;
+}
+
+.course-info {
+  margin: 16px;
+}
+
+.course-info h3 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.course-info span {
+  margin-top: 8px;
 }
 
 .course-image-1 {
@@ -199,6 +217,7 @@ nav a {
 /* thesis container */
 .thesis-container {
   height: 900px;
+  background-color: #123c72;
 }
 
 .thesis-container h2 {
@@ -215,25 +234,58 @@ nav a {
 video {
   height: 500px;
   width:100%;
-  border: 1px solid black;
+
 }
 .video-div {
   width:60%;
+  margin-left: 24px;
 }
 
 .video-div p {
   font-size: 20px;
 }
 
-.thesis-sideBar {
-  width: 40%;
+
+.sideBar-box {
+
+  width: 90%;
   display: flex;
-  margin-left: 32px;
+  margin: 1px 32px;
+  padding: 16px 0;
+}
+
+.sideBar-box img {
+  margin: 16px;
+  height: 200px;
+}
+
+.sideBar-box h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 8px;
+  margin-top: 50px;
+}
+
+.sideBar-box p {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.sideBar-box a {
+  margin-left: 8px;
+  font-size: 20px;
 }
 
 
 /* footer section */
 footer {
-  height: 200px;
-  border: 1px solid black;
+  height: 100px;
+
+  display: flex;
+  background-color: #546a7b;
+}
+
+footer span {
+  margin-left: 800px;
 }
