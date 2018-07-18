@@ -10,11 +10,11 @@
 
   <body>
     <header>
-      <div class="logo-box">
+      <div class="logo-box" role="presentation">
         <img class="colmarLogo" src="resources/images/ic-logo.svg" alt="Colmar logo">
-        <img class="moblie-logo" src="resources/images/ic-on-campus.svg" alt="">
-        <img class="moblie-logo" src="resources/images/ic-online.svg" alt="">
-        <img class="moblie-logo" src="resources/images/ic-login.svg" alt="">
+        <img class="moblie-logo" src="resources/images/ic-on-campus.svg" alt="campus logo">
+        <img class="moblie-logo" src="resources/images/ic-online.svg" alt="online logo">
+        <img class="moblie-logo" src="resources/images/ic-login.svg" alt="login logo">
         <span class="colmar-title">Colmar</span>
         <span class="academy-title">Academy</span>
       </div>
@@ -49,10 +49,10 @@
 
       </div>
 
-      <div class="second-container">
+      <div class="second-container" role="presentation">
         <div class="sideBar-box">
-          <img class="web-image" src="resources/images/information-orientation.jpg" alt="">
-          <img class ="mobile-orientation" src="resources/images/information-orientation-mobile.jpg" alt="">
+          <img class="web-image" src="resources/images/information-orientation.jpg" alt="people walking on a road">
+          <img class ="mobile-orientation" src="resources/images/information-orientation-mobile.jpg" alt="people walking on a road">
           <div class="sec-container-info">
             <h4>Orientation date</h4>
             <p>Tue 10/11 & Wed 10/12: 8am-3am</p>
@@ -60,8 +60,8 @@
           </div>
         </div>
         <div class="sideBar-box">
-          <img class="web-image" src="resources/images/information-campus.jpg" alt="">
-          <img class="mobile-orientation" src="resources/images/information-campus-mobile.jpg" alt="">
+          <img class="web-image" src="resources/images/information-campus.jpg" alt="study room">
+          <img class="mobile-orientation" src="resources/images/information-campus-mobile.jpg" alt="study room">
           <div class="sec-container-info">
             <h4>Our campus</h4>
             <p>Find which campus is close by you</p>
@@ -70,9 +70,9 @@
         </div>
         <div class="sideBar-box">
           <img class="web-image"
-           src="resources/images/information-guest-lecture.jpg" alt="">
+           src="resources/images/information-guest-lecture.jpg" alt="oliver stack">
           <img class="mobile-orientation"
-          src="resources/images/information-guest-lecture-mobile.jpg" alt="">
+          src="resources/images/information-guest-lecture-mobile.jpg" alt="oliver stack">
           <div class="sec-container-info">
             <h4>Our guest lecture</h4>
             <p>join a keynote with Oliver Stack about music in medical treatment</p>
@@ -85,12 +85,12 @@
     </div>
 
      <!--  start learning section-->
-    <div class="learning-container">
+    <div class="learning-container" role="presentation">
       <h2>Start Learning</h2>
       <div class="course-boxes">
         <!-- 1 -->
         <div class="course-box">
-          <div class="course-image-1"></div>
+          <div class="course-image-1" aria-label="computer screens"></div>
           <div class="course-info">
             <h3>software engineering</h3>
             <span>COURSES</span><br/>
@@ -99,7 +99,7 @@
         </div>
         <!-- 2 -->
         <div class="course-box">
-          <div class="course-image-2"></div>
+          <div class="course-image-2" aria-label="mobile phone"></div>
           <div class="course-info">
             <h3>Computer art </h3>
             <span>COURSES</span><br/>
@@ -108,7 +108,7 @@
         </div>
         <!-- 3 -->
         <div class="course-box">
-          <div class="course-image-3"></div>
+          <div class="course-image-3" aria-label="photographer"></div>
           <div class="course-info">
             <h3>Design</h3>
             <span>COURSES</span><br/>
@@ -117,7 +117,7 @@
         </div>
         <!-- 4 -->
         <div class="course-box">
-          <div class="course-image-4"></div>
+          <div class="course-image-4" aria-label="laptop"></div>
           <div class="course-info">
             <h3>Data</h3>
             <span>COURSES</span><br/>
@@ -126,7 +126,7 @@
         </div>
         <!-- 5 -->
         <div class="course-box">
-          <div class="course-image-5"></div>
+          <div class="course-image-5" aria-label="chess set"></div>
           <div class="course-info">
             <h3>Business</h3>
             <span>COURSES</span><br/>
@@ -135,7 +135,7 @@
         </div>
         <!-- 6 -->
         <div class="course-box">
-          <div class="course-image-6"></div>
+          <div class="course-image-6" aria-label="smartwatch"></div>
           <div class="course-info">
             <h3>Marketing</h3>
             <span>COURSES</span><br/>
@@ -145,7 +145,7 @@
 
       </div>
       <div class="mobile-learning">
-        <ul>
+        <ul role="presentation">
           <li class="mobile-learn-info">Software engineering</li>
           <li class="mobile-learn-info">Computer art</li>
           <li class="mobile-learn-info">Design</li>
@@ -167,14 +167,14 @@
         </div>
         <div class="thesis-sideBar">
           <div class="sideBar-box">
-            <img src="resources/images/thesis-fisma.jpg" alt="">
+            <img src="resources/images/thesis-fisma.jpg" alt="paperwork">
             <div>
               <h4>Fisma: Design and Prototype</h4>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
           <div class="sideBar-box">
-            <img src="resources/images/thesis-now-and-then.jpg" alt="">
+            <img src="resources/images/thesis-now-and-then.jpg" alt="new york skyline">
             <div>
               <h4>Now and then</h4>
               <p>Research study about New York</p>
@@ -188,7 +188,8 @@
     <!-- footer section -->
     <footer>
       <p>&copy 2016 Colmar Academy. All rights reserved</p>
-      <span>Terms Privacy</span>
+      <span role="note">Terms Privacy</span>
+      
     </footer>
   </body>
 
