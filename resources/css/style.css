@@ -32,9 +32,18 @@ header {
   height: 60px;
 }
 
+.moblie-logo {
+  height: 60px;
+  /* display: flex;
+  align-content: space-between; */
+  display: none;
+
+}
+
 nav {
   display: inline-block;
-  margin-left: 43%;
+  float: right;
+  margin-top: 20px;
 }
 
 nav li {
@@ -45,6 +54,23 @@ nav li {
 
 nav a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .moblie-logo {
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+
+  .logo-box {
+    width:100%;
+    margin-left: 12px;
+  }
+
+  nav, .colmar-title, .academy-title {
+    display: none;
+  }
 }
 /* banner container css */
 
@@ -89,12 +115,32 @@ nav a {
   font-size: 20px;
 }
 
-.main-container {
-  display: flex;
-  background-color: #9ea3b0;
+@media only screen and (max-width: 800px) {
+  .banner-container {
+    display: block;
+    height: 1000px;
+  }
+  .banner-image {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -32px;
+  }
+  .banner-info h1 {
+    margin-top: -60px;
+    margin-left: 80px;
+  }
+  .banner-info p, .banner-btn {
+    margin-left: 80px;
+  }
 }
 
 /* main container css */
+.main-container {
+  display: flex;
+  background-color: #9ea3b0;
+  height:auto;
+}
+
 .first-container {
   width: 60%;
   margin-left: 24px;
@@ -121,6 +167,34 @@ nav a {
   margin-bottom: 32px;
 }
 
+.mobile-orientation {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .first-container {
+    display: none;
+  }
+
+  .web-image {
+    display: none;
+  }
+
+  .mobile-orientation {
+    display: block;
+    width: 90%;
+  }
+
+  .sideBar-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .sec-container-info {
+    padding-left: 16px;
+  }
+}
+
 /* right side of main container */
 
 .second-container {
@@ -130,12 +204,16 @@ nav a {
 }
 
 
-
+@media only screen and (max-width: 800px) {
+  .second-container {
+    width: 100%;
+  }
+}
 /* learning container */
 .learning-container {
-  height: 1000px;
+  height: auto;
   background-color: #546a7b;
-  /* margin-top: 32px; */
+
 }
 
 .learning-container h2 {
@@ -214,10 +292,39 @@ nav a {
   background-size: cover;
 }
 
+.mobile-learning {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .course-boxes {
+    display: none;
+  }
+
+  .mobile-learning{
+    display: block;
+  }
+  .mobile-learning ul {
+    margin: 16px;
+    margin-bottom: 0;
+    padding-bottom: 32px;
+  }
+  .mobile-learning li {
+    display: block;
+    text-align: left;
+    padding: 16px 0px 24px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #123c72;
+    margin: 8px;
+  }
+}
+
 /* thesis container */
 .thesis-container {
-  height: 900px;
+  height: auto;
   background-color: #123c72;
+  margin-top: -17px;
 }
 
 .thesis-container h2 {
@@ -243,11 +350,11 @@ video {
 
 .video-div p {
   font-size: 20px;
+  margin-bottom: 16px;
 }
 
 
 .sideBar-box {
-
   width: 90%;
   display: flex;
   margin: 1px 32px;
@@ -277,15 +384,49 @@ video {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  .thesis-container .sideBar-box {
+    display: none;
+  }
+  .thesis-section h2, .thesis-section p {
+    display: none;
+  }
+  .video-div {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+  .thesis-container h2 {
+    padding-top: 32px;
+    margin-bottom: 16px;
+  }
+
+}
+
 
 /* footer section */
 footer {
-  height: 100px;
-
+  height: auto;
   display: flex;
   background-color: #546a7b;
 }
 
+footer p {
+  padding: 16px;
+}
+
 footer span {
   margin-left: 800px;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  footer  {
+    display: block;
+    padding: 16px;
+  }
+
+  footer span {
+    display: none;
+  }
 }
